@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1350px;
+  font-family: sans-serif;
+}
+
+.item-1 img {
+  margin-left: -65px;
+  width: 50px;
+  border-radius: 20%;
+  height: 100%;
+  margin-bottom: 3px;
+}
+@import url(https://fonts.googleapis.com/css2?family=Cute+Font&display=swap);
+.joy {
+  margin-top: 24px;
+}
+
+li a {
+  /* border: 1px solid #fff; */
+  /* font-size: 50px; */
+  font-weight: 600;
+}
+.kitob {
+  border: 1px solid #adacac;
+}
+header nav {
+  background-color: #000;
+  border-radius: 12px;
+}
+header nav ul {
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.item-1 a {
+  font-size: x-large;
+  color: rgb(241, 145, 36);
+}
+
+.item {
+  margin-left: -80px;
+}
+
+header nav ul li a:focus {
+  color: red;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li img {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+header nav ul li a {
+  color: rgb(209, 207, 207);
+  text-decoration: none;
+}
+section img {
+  margin: 0 auto;
+}
+@media screen and (max-width: 760px) {
+  body {
+    width: 380px;
+  }
+  .div {
+    border: 1px solid #000;
+    position: relative;
+    margin-top: -10px;
+    height: 50px;
+  }
+  body header {
+    margin: 0 auto;
+  }
+  .item-1 a {
+    font-size: 20px;
+    margin-left: -50px;
+  }
+  section img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  .bog {
+    display: none;
+  }
+  h2 a {
+    text-decoration: none;
+    color: #413f3f;
+  }
+  .item a {
+    margin-left: 70px;
+  }
+  body header nav {
+    width: 380px;
+  }
+  body header nav li img {
+    margin-top: 10px;
+    margin-left: -25px;
+  }
+  body header nav li a {
+    gap: 5px;
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=khodja.css.map */
